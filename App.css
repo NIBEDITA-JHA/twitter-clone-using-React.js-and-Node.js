@@ -1,0 +1,41 @@
+/* App.css */
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.content {
+  width: 80%;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.navbar ul, .sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li, .sidebar ul li {
+  margin: 10px 0;
+}
+
+.navbar ul li a, .sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.feed {
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+}
+
+.feed h2 {
+  margin-top: 0;
+}
